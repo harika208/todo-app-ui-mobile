@@ -4,18 +4,26 @@
     .dis1{
         border:1px solid #EDEDED;
         height:250px;
-        width:340px;
+        width:355px;
         background-color:white;
         border-radius: 10px;
         cursor: pointer;
         margin: 10px;
         position: absolute;
         top: 225px;
+        left:35%;
     
     }
+    @media (min-width:300px) and (max-width:800px){
+        .dis1{
+           position:absolute;
+           left:0px;
+        }
+    }
+
     .into{
     position:absolute;
-    left: 310px;
+    left: 315px;
     font-size: 20px;
     color:gray;
     
@@ -39,7 +47,7 @@
     .c{
     border: 1px solid #EDEDED;
     color:#F7F7F7;
-    width: 315px;
+    width: 320px;
     height:40px;
     background-color: #EDEDED;
     margin-left: 10px;
@@ -51,56 +59,47 @@
         
     }
     
-    body{
-        position: absolute;
-        left:35%;
-    }
-    
-    .hhhhh{
-    height:1282px;
-    width:360px;
-    border:1px solid black;
-    top:0;
-    left:0;
-    background-color: whitesmoke;
-    
-    }
-        
-    .task{
-        height:60px;
-        width: 350px;
-        background-color: white;
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        position:absolute;
-        top:0;
-        
-    
-        
-    }
-        
+
+
     .list{
         color:#00A5EC;
-        padding-left: 10px;
     }
     
+    
+    .head{
+        
+        padding-left: 50px;
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 40px;
+        color: #424242;
+    }
     
     .plus{
         color:#00A5EC;
-        cursor: pointer;
         font-size: 35px;
-        position: absolute;
-        top:100px;
-        left:150px;
-    
+        margin-left: 950px;
+        padding-top: 30px;
+        cursor: pointer;
         
+    
+    }
+    @media (min-width:300px) and (max-width:800px){
+        .plus{
+            position:absolute;
+            top:97px;
+            right: 245px;
+        }
     }
     .right1{
         color:#c2c2c2;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .task{
+        font-size: 20px;
+        padding-top: 36px;
+        padding-left: 10px;
     }
     
     .cb{
@@ -121,31 +120,27 @@
     .set1{
     margin-left: 10px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        background-color: whitesmoke;
-        
-        
+        background-color: #F7F7F7;
+        justify-content:center;
     }
     
     .child1{
-        width: 336px;
-        height: 360px;
+        width: 300px;
+        height: 300px;
         border:1px solid #EDEDED;
         border-radius: 10px;
         background-color: white;
         color:#00A5EC;
-        margin: 10px; 
         cursor: pointer;  
         font: normal normal medium 20px/24px Inter;
-        position:absolute;
-        top:140px;
+        margin: 10px;
     
     }
-    
-    /* .child1:hover{
+    .child1:hover{
         box-shadow: 0 0 15px rgb(138, 136, 136);
     }
     .child2:hover{
@@ -153,7 +148,7 @@
     }
     .child3:hover{
         box-shadow: 0 0 15px rgb(138, 136, 136);
-    } */
+    }
     
     a{
         text-decoration: none;
@@ -163,39 +158,40 @@
     }
     
     .child2{
-        width: 336px;
-        height: 360px;
+        width: 300px;
+        height: 300px;
         border:1px solid #EDEDED;
         border-radius: 10px;
         background-color: white;
         color:#00A5EC;
-        margin:10px;
         cursor: pointer;
-        position: absolute;
-        top: 510px;
+        margin: 10px;
     }
     .child3{
-        width: 336px;
-        height: 360px;
+        width: 300px;
+        height: 300px;
         border:1px solid #EDEDED;
         border-radius: 10px;
         background-color: white;
         color:#00A5EC;
-        margin: 10px;
         cursor: pointer;
-        position:absolute;
-        top:880px;
-    
+        margin: 10px;
     }
+    
+    
     
 
 
 
     .parent{
-             height:1282px;
-            width: 360px;
-            position:absolute;
-        }
+        
+        position:absolute;
+    
+    }
+
+        
+        
+    
     
         .children1{
             z-index: -1;
@@ -203,6 +199,7 @@
             left:0px;
             bottom: 0px;
             right:0px;
+            
         }
         
         .children2{
