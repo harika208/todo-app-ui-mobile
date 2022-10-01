@@ -7,19 +7,23 @@ body{
 height:1282px;
 width:360px;
 border:1px solid black;
+position: absolute;
 top:0;
 left:0;
 background-color: whitesmoke;
 }
     
-h1{
+.task{
     height:60px;
     width: 350px;
     background-color: white;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     padding-left: 10px;
-    padding-top: 10px;
-    
-}
+    position:absolute;
+    top:0;
+    }
     
 .list{
     color:#00A5EC;
@@ -81,6 +85,7 @@ margin-left: 10px;
 }
 .arrow{
     position:absolute;
+    top:115px;
     left:40px;
     color:black;
 }
